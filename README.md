@@ -214,7 +214,7 @@ HTML and the CSS go to the index.html and the style.css
 
 # Author 
 
-Paolo D'Elia
+Sayeed Anwar
 
 # License
 
