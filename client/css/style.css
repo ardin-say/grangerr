@@ -5,7 +5,6 @@ html {
 body {
     margin: 0px;
     height: 100%;
-    font-family: 'Comfortaa', sans-serif;
     background: url("../resources/samsung-galaxy-s10-wallpaper-2.jpg");
     color: white;
 }
@@ -15,7 +14,6 @@ header {
 }
 
 h1,h2{
-    font-family: 'Comfortaa', sans-serif;
     margin: 0px;
 }
 
@@ -32,7 +30,6 @@ h1,h2{
     display: inline-block;
     width: 88%;
     height: 70%;
-    font-family: 'Comfortaa', sans-serif;
     top: 25px;
     font-size: 16px;
     border:0;
