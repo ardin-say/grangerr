@@ -1,6 +1,6 @@
 $(function () {
     //make connection
-    let socket = io.connect('https://apsi12.herokuapp.com:5000');
+    let socket = io.connect();
 
     //buttons and inputs
     let message = $("#message");
