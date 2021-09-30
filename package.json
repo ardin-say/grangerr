@@ -9,7 +9,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
   },
   "keywords": [],
-  "author": "",
+  "author": "sayeed",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
