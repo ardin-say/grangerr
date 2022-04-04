@@ -26,6 +26,7 @@ let connnections = [];
 //listen on every connection
 io.on('connection', (socket) => {
     console.log('New user connected');
+    io.sockets.emit('g','sayeed test 20007')
     connnections.push(socket)
     //initialize a random color for the socket
     let color = randomColor();
