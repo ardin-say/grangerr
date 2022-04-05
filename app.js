@@ -54,7 +54,7 @@ io.on('connection', (socket) => {
         let msg = data.message;
         let uname1 = socket.username;
         let combine = msg.concat(",",uname1);
-        io.sockets.emit('new_message',two);
+        io.sockets.emit('new_message',combine);
     })
 
     //listen on typing
