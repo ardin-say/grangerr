@@ -51,10 +51,10 @@ io.on('connection', (socket) => {
     //listen on new_message
     socket.on('new_message', (data) => {
         //broadcast the new message
-        let msg = data.message;
-        let uname1 = socket.username;
-        let combine = msg.concat(",",uname1);
-        io.sockets.emit('new_message',combine);
+//         let msg = data.message;
+//         let uname1 = socket.username;
+//         let combine = msg.concat(",",uname1);
+        io.sockets.emit('new_message', {message : data.message, username : socket.username,color: socket.color});
     })
 
     //listen on typing
