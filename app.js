@@ -53,7 +53,7 @@ io.on('connection', (socket) => {
         //broadcast the new message
         let msg = data.message;
         let uname1 = socket.username;
-        let two = msg.concat(uname1);
+        let combine = msg.concat(",",uname1);
         io.sockets.emit('new_message',two);
     })
 
